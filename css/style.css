@@ -68,7 +68,7 @@ a {
 @media screen and (max-width: 470px){
   .header{
     margin-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 80px;
   }
   .main-content {
     margin-top: 0px;
