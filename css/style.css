@@ -25,7 +25,8 @@ a {
 
 @media screen and (max-width: 470px){
   .container {
-    height: 300px;
+    height: auto;
+    max-height: 300px;
   }
 }
 
