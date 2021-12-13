@@ -154,7 +154,7 @@ a {
 
 @media screen and (max-width: 470px){
   .form__group{
-    width: 150%;
+    width: 180%;
   }
   .output{
     width: 100%;
