@@ -68,7 +68,10 @@ a {
 @media screen and (max-width: 470px){
   .header{
     margin-top: 100px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
+  }
+  .main-content {
+    margin-top: 0px;
   }
 }
 .out_text{
