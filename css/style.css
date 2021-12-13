@@ -42,6 +42,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 100%;
+  margin-top: -150px;
 }
 
 .output{
@@ -62,10 +63,12 @@ a {
   font-size: 50px;
   font-family: "Roboto Condensed", sans-serif;
   margin-top: 170px;
+  margin-bottom: 150px;
 }
 @media screen and (max-width: 470px){
   .header{
     margin-top: 100px;
+    margin-bottom: 80px;
   }
 }
 .out_text{
