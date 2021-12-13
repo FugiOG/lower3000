@@ -22,6 +22,14 @@ a {
   padding-right: 8px;
   height: 720px;
 }
+
+@media screen and (max-width: 470px){
+  .container {
+    
+    height: 500px;
+  }
+}
+
 .send-form {
   display: flex;
   flex-flow: column;
