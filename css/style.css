@@ -28,6 +28,9 @@ a {
     height: auto;
     max-height: 300px;
   }
+  .header{
+    margin-top: 100px;
+  }
 }
 
 .send-form {
