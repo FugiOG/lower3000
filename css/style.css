@@ -56,9 +56,9 @@ a {
   overflow:auto;
   border: 10px solid transparent; 
   /* border-image: linear-gradient(to right, rgba(255, 0, 0, 0.425), rgba(255, 166, 0, 0.425), rgba(255, 255, 0, 0.425), rgba(0, 128, 0, 0.425), rgba(0, 255, 255, 0.425), rgba(0, 0, 255, 0.425), rgba(238, 130, 238, 0.425)); */
-  border-image: linear-gradient(to bottom,#F4E219, #1C87C0 ); 
-  -moz-border-image: -moz-linear-gradient(to right,#F4E219, #1C87C0 );
-  -webkit-border-image: -webkit-linear-gradient(to right,#F4E219, #1C87C0 );
+  border-image: linear-gradient(to bottom right,#F4E219, #1C87C0 ); 
+  -moz-border-image: -moz-linear-gradient(to bottom right,#F4E219, #1C87C0 );
+  -webkit-border-image: -webkit-linear-gradient(to bottom right,#F4E219, #1C87C0 );
   border-image-slice: 1; 
 }
 .header{
