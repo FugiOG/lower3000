@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btn.addEventListener('click', () => {
         console.log(input.value);
-        if (input.value.toLowerCase() == 'хуй'){
+        if (~input.value.toLowerCase().indexOf('хуй')){
             out.textContent = 'У Олега маленькая писька';
         }else{
             out.textContent = toLower(input.value);
