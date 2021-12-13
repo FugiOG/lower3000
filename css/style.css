@@ -151,3 +151,12 @@ a {
   -webkit-transform: translateY(-4rem);
   transform: translateY(-4rem);
 }
+
+@media screen and (max-width: 470px){
+  .form__group{
+    width: 150%;
+  }
+  .output{
+    width: 100%;
+  }
+}
