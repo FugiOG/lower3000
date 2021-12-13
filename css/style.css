@@ -27,9 +27,6 @@ a {
   .container {
     height: auto;
     max-height: 300px;
-  };
-  .header{
-    margin-top: 100px;
   }
 }
 
@@ -65,6 +62,11 @@ a {
   font-size: 50px;
   font-family: "Roboto Condensed", sans-serif;
   margin-top: 170px;
+}
+@media screen and (max-width: 470px){
+  .header{
+    margin-top: 100px;
+  }
 }
 .out_text{
   color:white;
