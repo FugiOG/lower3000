@@ -9,7 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     btn.addEventListener('click', () => {
         console.log(input.value);
-        out.textContent = toLower(input.value);
+        if (input.value.toLowerCase() == 'хуй'){
+            out.textContent = 'У Олега маленькая писька';
+        }else{
+            out.textContent = toLower(input.value);
+        }
     });
 
     function toLower (text){
