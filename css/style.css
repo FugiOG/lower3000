@@ -12,7 +12,6 @@ body {
 a {
   text-decoration: none;
 }
-
 .container {
   width: 100%;
   max-width: 1184px;
@@ -166,4 +165,22 @@ a {
   .output{
     width: 90%;
   }
+}
+.audio_contr{
+  padding-left: 70px;
+  padding-top: 50px;
+}
+.audio_btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background: none;
+  cursor:pointer;
+}
+.pause {
+  background-image: url('../img/vkl_audio.png');
+}
+
+.play {
+  background-image: url('../img/otkl_audio.png');
 }
