@@ -169,6 +169,7 @@ a {
 .audio_contr{
   padding-left: 70px;
   padding-top: 50px;
+  margin-bottom: -70px;
 }
 .audio_btn {
   width: 50px;
