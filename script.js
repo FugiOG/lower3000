@@ -9,6 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
           player = document.querySelector('#player');
     let i = 0;
     player.pause();
+
+    if (localStorage.getItem('inputText')){
+        input.textContent = localStorage.getItem('inputText');
+    }
+
     btn.addEventListener('click', inputHandler);
 
     input.addEventListener('keydown', (event)=>{
@@ -38,9 +43,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }else{
             out.textContent = toLower(input.value);
         }
+        localStorage.setItem('inputText', out.textContent);
     }
 
     function toLower (text){
         return text.toLowerCase();
     }
+
+    //* local storage
+
+
 });
