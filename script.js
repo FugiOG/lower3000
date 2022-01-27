@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     player.pause();
 
     if (localStorage.getItem('inputText')){
-        input.textContent = localStorage.getItem('inputText');
+        input.value = localStorage.getItem('inputText');
     }
 
     btn.addEventListener('click', inputHandler);
@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }else{
             out.textContent = toLower(input.value);
         }
-        localStorage.setItem('inputText', out.textContent);
+        localStorage.setItem('inputText', input.value);
     }
 
     function toLower (text){
